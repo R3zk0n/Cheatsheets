@@ -124,6 +124,8 @@ do
 done
 
 [+] One Liners
+FOR Loop:
+for i in {1..5}; do COMMAND-HERE; done
 
 Port Scan:
 for port in $(cat Ports.txt); do nc -nzv 192.168.0.1 $port & sleep 0.5; done
